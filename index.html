@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        
+
+    </nav>
+
+    <div class="content-body">
+        <div class="object">
+            <ul class="option">
+                <li class="active"> <button id="prop"> Properties</button> </li>
+                <li> <button id="meth"> Method</button></li>
+            </ul>
+            <div class="properties">
+                <div class="window-color">
+                    <h3>Window</h3>
+                    <span> Window Color: <input id="window-color" type="color"value="#DB5807"></span>
+                </div>    
+                <div class="body-color">
+                    <h3>Car Body</h3>
+                    <span> Car Color: <input id="window-color" type="color" value="#D84F4F"></span>
+                </div>             
+                <div>
+                    <h3>Front Wheel</h3>
+                    <span> Wheel Body: <input id="front-wheel-body" type="color" value="#FFFF00"></span>
+                    <span> Wheel Tire: <input id="front-wheel-tire" type="color" value="#2272b5"></span>
+                </div>
+                <div>
+                    <h3>Back Wheel</h3>
+                    <span> Wheel Body: <input id="back-wheel-body" type="color" value="#FFFF00"></span>
+                    <span> Wheel Tire: <input id="back-wheel-tire" type="color" value="#2272b5"></span>
+                </div>
+                <div>
+                    <h3>Front Light</h3>
+                    <span> Light Color: <input id="back-wheel-body" type="color" value="#ffffff"></span>
+                    <span> Switch: <input type="checkbox" id="switch" class="checkbox" />
+                            <label for="switch" class="toggle"> 
+
+                    </span>
+                </div>
+                <div>
+                    <h3>Back Light</h3>
+                    <span> Light Color: <input id="back-wheel-body" type="color" value="#ffffff"></span>
+                    <span> Switch:
+                        <input type="checkbox" id="switch1" class="checkbox" />
+                        <label for="switch1" class="toggle"> 
+                     </span>
+                </div>
+
+            </div>
+
+            <div class="method">
+                <span>speed: <input id="carspeed" type="range" min="0.0" value="2.0" max="2.9" step="0.1"></span>
+                <button>Start</button>
+                <button>Go</button>
+                <button>Stop</button>
+        
+            </div>
+
+
+        </div>
+        <div class="car-div">
+            
+
+            <div class="car">
+                <div class="car_window">
+                    <div class="car_window_back"></div>
+                    <div class="car_window_mid"></div>
+                    <div class="car_window_mi"></div>
+                    <div class="car_window_front"></div>
+                </div>
+                <div class="car__body">
+                    <div class="car__bulb"></div>
+                    <div class="car__bulb car__bulb--back"></div>
+                    <div class="car__center"></div>
+                </div>
+                <div class="car__wheels">
+                    <div class="car__wheel car__wheel--1 back">
+                        <div class="wheel__circle"></div>
+                        <div class="wheel__rect wheel__rect--1"></div>
+                        <div class="wheel__rect wheel__rect--2"></div>
+                        <div class="wheel__rect wheel__rect--3"></div>
+                        <div class="wheel__rect wheel__rect--4"></div>
+                        <div class="wheel__rect wheel__rect--5"></div>
+                        <div class="wheel__rect wheel__rect--6"></div>
+                    </div>
+                    <div class="car__wheel car__wheel--2 front">
+                        <div class="wheel__circle"></div>
+                        <div class="wheel__rect wheel__rect--1"></div>
+                        <div class="wheel__rect wheel__rect--2"></div>
+                        <div class="wheel__rect wheel__rect--3"></div>
+                        <div class="wheel__rect wheel__rect--4"></div>
+                        <div class="wheel__rect wheel__rect--5"></div>
+                        <div class="wheel__rect wheel__rect--6"></div>
+                    </div>
+                </div>
+            </div>    
+        </div>
+
+        <div class="console">
+            <div class="console-history"></div>
+
+        </div>
+    </div>
+    <div class="editor">
+        <input class="editor-input" type="text" autofocus spellcheck="false">
+        
+
+    </div>
+    
+    
+</body>
+<script src="./script.js" type="module"></script>
+</html>
